@@ -18,9 +18,13 @@ const NutFacts = ({
 }) => {
   return (
     <div className="nutritionDiv">
-      <h1>
-        <span style={{ borderBottom: "5px solid black" }}>Nutrition Facts</span>
-      </h1>
+      <div className="centered-header">
+        <h1>
+          <span style={{ borderBottom: "5px solid black" }}>
+            Nutrition Facts
+          </span>
+        </h1>
+      </div>
       <div className="nutritionSection">
         <div className="nutritionSection2">
           <p className="nutritionLabel">
